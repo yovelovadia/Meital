@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  background: linear-gradient(
+    0deg,
+    #1a8cff 20%,
+    #3399ff 20%,
+    #3399ff 40%,
+    #4da6ff 40%,
+    #4da6ff 60%,
+    #66b3ff 60%,
+    #66b3ff 80%,
+    #80bfff 80%,
+    #80bfff 100%
+  );
+}
+
+.title {
+  margin-bottom: 50px;
+  font-size: 72px;
+  color: rgb(254, 255, 177);
+  border-bottom: 4px solid rgb(39, 39, 39);
+}
+
+.score {
+  position: fixed;
+  top: 20px;
+  left: 40px;
+  color: rgb(39, 39, 39);
+}
+
+.questionRemain {
+  position: fixed;
+  top: 70px;
+  left: 40px;
+  color: rgb(39, 39, 39);
+}
+
+.questionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.questionContainer h1 {
+  color: rgb(254, 255, 177);
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.yesNoContainer {
+  position: relative;
+  display: flex;
+}
+
+.cross {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: -50px;
+  display: none;
+}
+
+.check {
+  width: 40px;
+  height: 40px;
+  display: none;
+  position: absolute;
+  right: -50px;
+}
+
+.button {
+  padding: 10px 20px;
+  text-align: center;
+  border: 2px solid rgb(39, 39, 39);
+  outline: none;
+  margin: 5px;
+  background-color: transparent;
+  color: rgb(39, 39, 39);
+  font-size: 27px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+.summery {
+  text-align: center;
+  color: rgb(238, 255, 87);
+  font-size: 35px;
+  width: 60%;
+}
